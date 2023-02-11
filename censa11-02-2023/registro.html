@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+
+
+</head>
+
+<body>
+
+    <form method="Post" action="dbcon.php">
+
+
+
+
+        <h2>Formulario de registro</h2>
+
+
+
+        <td> Nombre: <input type="text" name="nombre"> </td> <br>
+
+
+
+        <td> Documento: <input type="text" name="documento"> </td> <br>
+
+
+
+        <select name="sitoma" id="sitoma">
+            <option value="si">Sí</option>
+        </select> <br>
+
+
+        <p>Seleccione el tipo de gaseosa</p>
+        <select name="tipogaseosa">
+            <option value="postobon">Postobón</option>
+            <option value="coca-cola">Coca-Cola</option>
+            <option value="pool">Pool</option>
+            <option value="otra">Otra</option>
+        </select>
+
+        <tr>
+            <td><input type="submit" value="Enviar"></td><br>
+        </tr>
+
+
+
+    </form>
+
+    <script src="validar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+Se solicita a varias personas a responder una encuesta sobre el consumo de gaseosas.
+           1, Consume gaseosa
+           2, no consume gaseosa
+       
+Si la respuesta es afirmativa, mostrar las siguientes opciones:
+          1. Postobón
+          2. Coca Cola
+          3. Pool
+          4. Otra
+
+
+
+Almacenar en una base de datos el número del documento del encuestado, el nombre, 
+si consume o no gaseosa y de ser afirmativa la respuesta cual consume.
